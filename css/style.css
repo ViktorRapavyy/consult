@@ -55,3 +55,43 @@ header{
     color: #5F6465;
     margin-left: 3px;
 }
+
+nav{
+    width: 100vw;
+    height: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.container-nav{
+    width: 1170px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav .container-nav .logo{
+    width: 580px;
+}
+
+nav .container-nav .bar{
+    width: 590px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+nav .container-nav .bar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4e4e4e;
+    font-family: "Montserrat";
+}
+
+nav .container-nav .bar a:hover{
+    color: #ffac55;
+}
