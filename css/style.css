@@ -133,3 +133,150 @@ nav .container-nav .bar a:hover{
     border: 3px solid;
     border-color: #FFFFFF #FFFFFF transparent transparent;
 }
+
+.container-girl{
+    width: 1170px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.choose-box{
+    width: 458px;
+    height: 518px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chb{
+    width: 227.5px;
+    height: 130px;
+    background-color: #00B6ED;
+    padding-left: 35px;
+    background-repeat: no-repeat;
+}
+.chb:hover{
+    background-color: #00A6D9;
+}
+
+.chb p{
+    text-transform: uppercase;
+    margin-top:40px;
+    margin-right: 150px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
+#chb-01{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #FFAB38;
+    width: 455px;
+    background-image: none;
+}
+#chb-01 p{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 36px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+#chb-01 p:last-child{
+    font-size: 31px;
+}
+
+#chb-02{
+    border: 1px solid;
+    border-color: transparent #00A6D9 #00A6D9 transparent;
+    background-image: url(../img/icon_education.png), url(../img/arrow.png);
+    background-position: top 30px left 35px, bottom 30px right 20px;;
+}
+#chb-02:hover{
+    background-image: url(../img/icon_education.png), url(../img/arrow-light.png);
+    background-position: top 30px left 35px, bottom 30px right 20px;;
+}
+
+#chb-03{
+    border: 1px solid;
+    border-color: transparent transparent #00A6D9 transparent;
+    background-image: url(../img/icon_business.png), url(../img/arrow.png);
+    background-position: top 30px left 35px, bottom 30px right 20px;;
+}
+#chb-03:hover{
+    background-image: url(../img/icon_business.png), url(../img/arrow-light.png);
+    background-position: top 30px left 35px, bottom 30px right 20px;;
+}
+
+#chb-04{
+    border: 1px solid;
+    border-color: transparent #00A6D9 #00A6D9 transparent;
+    background-image: url(../img/icon_technology.png), url(../img/arrow.png);
+    background-position: top 30px left 35px, bottom 30px right 20px;;
+}
+#chb-04:hover{
+    background-image: url(../img/icon_technology.png), url(../img/arrow-light.png);
+    background-position: top 30px left 35px, bottom 30px right 20px;;
+}
+
+#chb-05{
+    border: 1px solid;
+    border-color: transparent transparent #00A6D9 transparent;
+    background-image: url(../img/icon_real_estate.png), url(../img/arrow.png);
+    background-position: top 30px left 35px, bottom 30px right 20px;;
+}
+#chb-05 p{
+    width: 100px;
+}
+#chb-05:hover{
+    background-image: url(../img/icon_real_estate.png), url(../img/arrow-light.png);
+    background-position: top 30px left 35px, bottom 30px right 20px;;
+}
+
+#chb-06{
+    border: 1px solid;
+    border-color: transparent #00A6D9 #00A6D9 transparent;
+    background-image: url(../img/icon_banking.png), url(../img/arrow.png);
+    background-position: top 30px left 35px, bottom 30px right 20px;;
+}
+#chb-06:hover{
+    background-image: url(../img/icon_banking.png), url(../img/arrow-light.png);
+    background-position: top 30px left 35px, bottom 30px right 20px;;
+}
+
+#chb-07{
+    border: 1px solid;
+    border-color: transparent transparent #00A6D9 transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.green-button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #00DF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-button p{
+    margin: 0;
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
