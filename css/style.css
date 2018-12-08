@@ -62,6 +62,7 @@ nav{
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
+    position: sticky;
 }
 
 .container-nav{
@@ -94,4 +95,41 @@ nav .container-nav .bar a{
 
 nav .container-nav .bar a:hover{
     color: #ffac55;
+}
+
+.girl-wrap{
+    width: 100vw;
+    height: 700px;
+    background-image: url(../img/girl.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-switch,
+.right-switch{
+    width: 45px;
+    height: 100px;
+    background-color: #262829;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-left{
+    height: 15px;
+    width: 15px;
+    transform: rotate(45deg);
+    border: 3px solid;
+    border-color: transparent transparent #FFFFFF #FFFFFF;
+}
+
+.arrow-right{
+    height: 15px;
+    width: 15px;
+    transform: rotate(45deg);
+    border: 3px solid;
+    border-color: #FFFFFF #FFFFFF transparent transparent;
 }
