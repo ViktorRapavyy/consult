@@ -2,10 +2,13 @@
     margin: 0 ;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    transition: .5s;
+    
 }
+
+
 .projects{
     height: 100vh;
+    display: flex;
 }
 .small-text-section-projects{
     font-size: 14px;
@@ -57,6 +60,7 @@
     color: white;
     font-size: 12;
     font-weight: 400;
+    transition: .5s;
     
     
 }
@@ -64,6 +68,7 @@
     background: #ffac56;
     text-decoration: none;
     color: white;
+    transition: .5s;
 }
 
 .hover-button{
@@ -75,12 +80,14 @@
     color: white;
     font-weight: 700;
     z-index: 4;
+    transition: .5s;
     
     
 }
 .hover-button:hover{
     text-decoration: none;
     color: white;
+    transition: .5s;
     
     
 }
@@ -127,9 +134,7 @@
     
 }
 
-    .tt{
-    margin-right: -25px;
-}
+   
 .bt{
     margin-top: 30px;
 }
@@ -164,9 +169,33 @@
     
     
 }
-@media only screen and (min-device-width : 995px) and (max-device-width : 1200px)  {
+.bottom-ss{
+    
+    margin: 0 auto;
+}
+.bottom-buttom{
+    
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    background: #16d428;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 40px;
+    
+    
+}
+.bottom-buttom:hover{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (min-device-width : 990px) and (max-device-width : 1200px)  {
         img{
-        width: 100%;
+        max-width: 100%;
 }
 .l35-2{
     width: 450px;
@@ -177,15 +206,17 @@
     .bt{
        min-width: 475px; 
     }
+    .tt{
+        margin-left: -5px;
+    }
 }
-@media only screen and (min-device-width : 750px) and (max-device-width : 995px)  {
+@media only screen and (min-device-width : 750px) and (max-device-width : 991px)  {
         img{
-            max-width: 100%;
+            max-width:100%;
+            
             
     } 
-    .block-1{
-        ;
-    }
+    
     .bt{
     margin-top: 0px;
         
@@ -194,9 +225,34 @@
         margin-top: 20px;
         
     }
-    .row{
+    .layer-19{
+        min-width: 550px;
         
     }
+    .layer-26{
+       min-width: 550px;
+        
+        
+    }
+    .l35-1{
+    width: 555px;
+    }
+    .projects{
+      display: block;
+    }
+    .wrapper{
+        margin-left: 20%
+    }
+    .bottom-ss{
+        margin-left: 30%
+    }
+
+.l35-2{
+    width: 555px;
+
+    }
+
+    
 }
 @media screen and (max-width:750px){
     img{
@@ -213,27 +269,27 @@
     .block-2{
         margin-top: 20px;
     }
+    .projects{
+      display: block;
+    }
+    .tt{
+        margin-left: -1px;
+    }
 }
        
-.bottom-ss{
-    margin: 0 auto;
+@media screen and (min-width:1200px){
+    .tt{
+        
+        padding-left: 15px;
+    }
 }
-.bottom-buttom{
-    
-    display: inline-block;
-    color: white;
-    text-transform: uppercase;
-    background: #16d428;
-    font-size: 13px;
-    font-weight: 400;
-    padding: 10px 25px 10px 25px;
-    border-radius: 20px;
-    text-align: center;
-    margin-top: 20px;
+.wrapper{
+   display: flex;
+    align-items: center;
+    align-content: center;
+   
     
     
 }
-.bottom-buttom:hover{
-    text-decoration: none;
-    color: white;
-}
+
+ //*----------------------------------------------------------------------------------------------------------------------------------------------------Project section------------------------------------------------------------------------------------------------------------------------------------  *//
